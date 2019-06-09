@@ -4,6 +4,6 @@ window.onload = function () {
     } );
 };
 document.addEventListener( 'DOMContentLoaded', function () {
-    var elems = document.querySelectorAll( 'h4' );
-    var instances = M.Sidenav.init( elems, instances );
+    var elems = document.querySelectorAll( '.modal' );
+    var instances = M.Modal.init( elems, instances );
 } );
