@@ -85,6 +85,12 @@ body{
    #bio-title{
        color: black;
    }
+   #info-row{
+       margin-top: 40px;
+   }
+   #bold-contact-info{
+       font-weight: bold;
+   }
     
     
 #main-title{
