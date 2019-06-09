@@ -111,7 +111,7 @@ body{
 }
 #projects-title{
     margin-top: 220px;
-    margin-left: 45px;
+    margin-left: 25px;
     transform: rotate(34deg);
     font-family: Raleway;
 }
@@ -166,8 +166,8 @@ body{
 }
 
 #resume-title{
-    margin-top: 61px;
-    margin-right: 190px;
+    margin-top: 190px;
+    margin-left: 139px;
     transform: rotate(34deg);
     
 }
