@@ -12,9 +12,6 @@ body{
         overflow: hidden;
     }
     
-    
-
-    
       #github{
         color: white;
         margin-right: 25px;
@@ -82,6 +79,13 @@ body{
         margin-bottom: 50px;
         background-color: white;
    }
+   #modal2{
+        width: 85% !important;
+        min-height: 90% !important;
+        /* margin-left: 220px; */
+        margin-bottom: 50px;
+        background-color: white;
+   }
    #self-info{
        width: 280px;
        height: 320px;
@@ -102,6 +106,50 @@ body{
     #education-info{
        font-weight: bold;
        margin-top: 20px;
+   }
+   #stagger-pictures{
+       margin-top: 30px;
+   }
+   #psychic-game-photo{
+       width: 400px;
+       height: 450px;
+       margin-left: 45px;
+       position: unset;
+   }
+   #travel-project-photo{
+       width: 270px;
+       height: 290px;
+       margin-left: 45px;
+       margin-bottom: 159px;
+       position: unset;
+   }
+   #the-basher-photo{
+       width: 350px;
+       height: 370px;
+       margin-left: 45px;
+       margin-bottom: 79px;
+       position: unset;
+   }
+   #friend-finder-photo {
+    width: 270px;
+    height: 379px;
+    margin-left: 45px;
+    margin-top: -120px;
+    position: unset;
+}
+   #sportsgif-photo{
+       width: 400px;
+       height:159px;
+       margin-left: 45px;
+       margin-bottom: 137px;
+       position: unset;
+   }
+   #trivia-game-photo{
+       width: 300px;
+       height:290px;
+       margin-left: 45px;
+       margin-bottom: 34px;
+       position: unset;
    }
     
     
@@ -155,13 +203,13 @@ body{
 }
 
 
-#about-title{
+#profile-title{
     margin-top: 240px;
     margin-left: 70px;
     transform: rotate(34deg);
        
 }
-.container-about{
+.container-profile{
     
     transform: rotate(-34deg);
     left: 577px;
@@ -174,7 +222,7 @@ body{
     /* transition: all 0.5s; */
     z-index: 1;
 }
-.container-about:hover{
+.container-profile:hover{
     
      opacity: 1.0;
     -webkit-transition: 1s ease-in-out;
