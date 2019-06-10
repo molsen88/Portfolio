@@ -1,158 +1,191 @@
 
 body{
-        background: url("../images/IMG_0247.jpg") no-repeat center;
-        background-size: cover;
-        text-align: -webkit-left;
-        -webkit-background-size: cover;
-        height: 700px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0px;
-        overflow: hidden;
+    background: url("../images/IMG_0247.jpg") no-repeat center;
+    background-size: cover;
+    text-align: -webkit-left;
+    -webkit-background-size: cover;
+    height: 700px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    overflow: hidden;
     }
     
-      #github{
-        color: white;
-        margin-right: 25px;
-        text-decoration: none;
-        font-family: Raleway;
+#github{
+    color: white;
+    margin-right: 25px;
+    text-decoration: none;
+    font-family: Raleway;
     }
 
-    #LinkedIn{
-        color: white;
-        margin-right: 55px;
-        text-decoration: none;
-        font-family: Raleway;
+#LinkedIn{
+    color: white;
+    margin-right: 55px;
+    text-decoration: none;
+    font-family: Raleway;
     }
 
-    #resume-link{
-        color: white;
-        font-family: Raleway;
-        margin-right: 25px;
-        text-decoration: none;
-    }
-    h1{
-        color: white;
-        font-family: Raleway;
-        font-size: 85px;
-    }
-    h3{
-        color: white;
-        font-family: Raleway;
-        font-size: 40px;
-
-    }
-    h4{
-        color: white;
-        font-family: Raleway;
-        font-size: 60px;
-        text-decoration:underline;
-        }
-
-    h4:hover{
-        cursor: pointer;
-        transform: rotate(1080deg)    
-    }
-    h5{
-        font-size: 25px;
-        color: black;
-    }
-    .cols4{
-        text-align: center;
-        vertical-align: middle;
-    }
-    #modal1.h6{
-        font-size: 60px;
+#resume-link{
+    color: white;
+    font-family: Raleway;
+    margin-right: 25px;
+    text-decoration: none;
     }
 
-    #profile{
-        font-size: 50px;
-        font-family: Raleway;
+h1{
+    color: white;
+    font-family: Raleway;
+    font-size: 85px;
+    }
+
+h3{
+    color: white;
+    font-family: Raleway;
+    font-size: 40px;
+
+    }
+h4{
+    color: white;
+    font-family: Raleway;
+    font-size: 60px;
+    text-decoration:underline;
+    }
+
+h4:hover{
+    cursor: pointer;
+    transform: rotate(1080deg)    
+    }
+
+h5{
+    font-size: 25px;
+    color: black;
+    }
+
+.cols4{
+    text-align: center;
+    vertical-align: middle;
+    }
+
+#modal1.h6{
+    font-size: 60px;
+    }
+
+#profile{
+    font-size: 50px;
+    font-family: Raleway;
     }
 
 
-   #modal1{
-        width: 85% !important;
-        min-height: 90% !important;
-        /* margin-left: 220px; */
-        margin-bottom: 50px;
-        background-color: white;
+#modal1{
+    width: 85% !important;
+    min-height: 90% !important;
+    /* margin-left: 220px; */
+    margin-bottom: 50px;
+    background-color: white;
    }
-   #modal2{
-        width: 85% !important;
-        min-height: 90% !important;
-        /* margin-left: 220px; */
-        margin-bottom: 50px;
-        background-color: white;
+#modal2{
+    width: 85% !important;
+    min-height: 90% !important;
+    /* margin-left: 220px; */
+    margin-bottom: 50px;
+    background-color: white;
    }
-   #self-info{
-       width: 280px;
-       height: 320px;
-       margin-top: 40px;
+#self-info{
+    width: 280px;
+    height: 320px;
+    margin-top: 40px;
    }
-   #bio{
-       margin-top: 40px;
+#bio{
+    margin-top: 40px;
    }
-   #bio-title{
-       color: black;
+#bio-title{
+    color: black;
    }
-   #title-row{
-       margin-top: 40px;
+#title-row{
+    margin-top: 40px;
    }
-   #bold-contact-info{
-       font-weight: bold;
+#bold-contact-info{
+    font-weight: bold;
    }
-    #education-info{
-       font-weight: bold;
-       margin-top: 20px;
+#education-info{
+    font-weight: bold;
+    margin-top: 20px;
    }
-   #stagger-pictures{
-       margin-top: 30px;
+#stagger-pictures{
+    margin-top: 30px;
+    -webkit-box-flex: unset;
    }
-   #psychic-game-photo{
-       width: 400px;
-       height: 450px;
-       margin-left: 45px;
-       position: unset;
-   }
-   #travel-project-photo{
-       width: 270px;
-       height: 290px;
-       margin-left: 45px;
-       margin-bottom: 159px;
-       position: unset;
-   }
-   #the-basher-photo{
-       width: 350px;
-       height: 370px;
-       margin-left: 45px;
-       margin-bottom: 79px;
-       position: unset;
-   }
-   #friend-finder-photo {
-    width: 270px;
-    height: 379px;
-    margin-left: 45px;
-    margin-top: -120px;
+#psychic-game-photo{
+    width: 290px;
+    height: 310px;
+    margin-left: 115px;
+    margin-bottom: 30px;
     position: unset;
+   }
+
+#travel-project-photo{
+    width: 290px;
+    height: 310px;
+    margin-left: 45px;
+    margin-bottom: 160px;
+    position: unset;
+   }
+
+#the-basher-photo{
+    width: 290px;
+    height: 310px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    position: unset;
+   }
+
+#sportsgif-photo{
+    width: 290px;
+    height: 310px;
+    margin-left: 115px;
+    margin-bottom: 200px;
+       
+   }
+
+#trivia-game-photo{
+    width: 290px;
+    height: 310px;
+    margin-left: 45px;
+    margin-bottom: 279px;
 }
-   #sportsgif-photo{
-       width: 400px;
-       height:159px;
+
+#friend-finder-photo {
+    width: 290px;
+    height: 310px;
+    margin-left: 45px;
+    margin-bottom: 200px;
+    }
+   
+#bamazon-photo{
+    width: 290px;
+    height: 310px;
+    margin-left: 115px;
+    margin-bottom: -137px;
+    
+    
+   }
+#liri-bot-photo{
+       width: 290px;
+       height: 310px;
        margin-left: 45px;
        margin-bottom: 137px;
-       position: unset;
+       
+
    }
-   #trivia-game-photo{
-       width: 300px;
-       height:290px;
-       margin-left: 45px;
-       margin-bottom: 34px;
-       position: unset;
-   }
+#burger-photo{
+    width: 290px;
+    height: 310px;
+    margin-left: 45px;
+    margin-top: 137px;
     
-    
+    }
+  
 #main-title{
     margin-top: 215px;
     vertical-align: middle;
@@ -202,13 +235,13 @@ body{
     
 }
 
-
 #profile-title{
     margin-top: 240px;
     margin-left: 70px;
     transform: rotate(34deg);
        
 }
+
 .container-profile{
     
     transform: rotate(-34deg);
@@ -228,15 +261,14 @@ body{
     -webkit-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
     transform: rotate(326deg)
-    
-}
+    }
 
 #resume-title{
     margin-top: 190px;
     margin-left: 139px;
     transform: rotate(34deg);
-    
-}
+    }
+
 .container-resume{
     transform: rotate(-34deg);
     left: 766px;
@@ -248,10 +280,11 @@ body{
     display: table;
     /* transition: all 0.5s; */
     z-index: 1;
-}
+    }
+
 .container-resume:hover{
     
-     opacity: 1;
+    opacity: 1;
     -webkit-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
     transform: rotate(326deg)
@@ -264,8 +297,8 @@ body{
     transform: rotate(34deg);
     font-family: Raleway;
     font-size: 14px;
+    }
 
-}
 .container-portfolio{
     transform: rotate(-34deg);
     left: 1054px;
@@ -277,14 +310,13 @@ body{
     display: table;
     /* transition: all 0.5s; */
     z-index: 1;
-}
+    }
+
 .container-portfolio:hover{
-    
-     opacity: 1;
+    opacity: 1;
     -webkit-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
     transform: rotate(326deg)
-    
-}
+    }
 
     
