@@ -112,79 +112,52 @@ h5{
     font-weight: bold;
     margin-top: 20px;
    }
-#stagger-pictures{
-    margin-top: 30px;
-    -webkit-box-flex: unset;
-   }
-#psychic-game-photo{
-    width: 290px;
-    height: 310px;
-    margin-left: 115px;
-    margin-bottom: 30px;
-    position: unset;
-   }
-
-#travel-project-photo{
-    width: 290px;
-    height: 310px;
-    margin-left: 45px;
-    margin-bottom: 160px;
-    position: unset;
-   }
-
-#the-basher-photo{
-    width: 290px;
-    height: 310px;
-    margin-left: 45px;
-    margin-bottom: 30px;
-    position: unset;
-   }
-
-#sportsgif-photo{
-    width: 290px;
-    height: 310px;
-    margin-left: 115px;
-    margin-bottom: 200px;
-       
-   }
-
-#trivia-game-photo{
-    width: 290px;
-    height: 310px;
-    margin-left: 45px;
-    margin-bottom: 279px;
+#instructions{
+    font-size: 26px;
+    font-family: Raleway;
 }
 
-#friend-finder-photo {
-    width: 290px;
-    height: 310px;
-    margin-left: 45px;
-    margin-bottom: 200px;
-    }
-   
-#bamazon-photo{
-    width: 290px;
-    height: 310px;
-    margin-left: 115px;
-    margin-bottom: -137px;
-    
-    
-   }
-#liri-bot-photo{
-       width: 290px;
-       height: 310px;
-       margin-left: 45px;
-       margin-bottom: 137px;
-       
 
-   }
-#burger-photo{
-    width: 290px;
-    height: 310px;
-    margin-left: 45px;
-    margin-top: 137px;
-    
-    }
+
+.photo {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+}
+ 
+ img {
+  margin-left: auto;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  
+}
+
+img:hover {
+  opacity: 0;
+  transition:opacity 2s;
+}
+
+
+
+.fade-info {
+      z-index: -1;
+    width: 130px;
+    line-height: 35px;
+    display: inline-block;
+    padding: inherit;
+    vertical-align: text-top;
+    font-family: Raleway;
+    font-size: 40px;
+    text-align: center;
+    height: 65px;
+} 
+
+
   
 #main-title{
     margin-top: 215px;
