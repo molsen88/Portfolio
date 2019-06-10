@@ -9,7 +9,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-    overflow: hidden;
+    
     }
     
 #github{
@@ -309,7 +309,7 @@ img:hover {
 }
 .container-title{
 
-    height: 40px;
+    height: 80px;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -337,6 +337,7 @@ img:hover {
     width: 95%;
     text-transform: uppercase;
     
+    
 }
 .container-projects:hover{
     opacity: 1;
@@ -353,6 +354,7 @@ img:hover {
     height: 90px;
     width: 95%;
     text-transform: uppercase;
+    
        
 }
 
@@ -360,7 +362,7 @@ img:hover {
     
     transform: rotate(0deg);
     left: 0px;
-    top: 330px;
+    top: 340px;
     position: absolute;
     width: 100%;
     height: 20px;
@@ -377,21 +379,21 @@ img:hover {
     }
 
     #portfolio-title{
-    margin-top: 140px;
+     margin-top: 30px;
     margin-left: 25px;
     transform: rotate(0deg);
     font-family: Raleway;
     height: 90px;
     width: 95%;
     text-transform: uppercase;
-    text-align: justify;
+    
        
     }
 
 .container-portfolio{
     transform: rotate(0deg);
     left: 0px;
-    top: 330px;
+    top: 475px;
     position: absolute;
     width: 100%;
     height: 20px;
@@ -401,27 +403,27 @@ img:hover {
     }
 
 .container-portfolio:hover{
-    opacity: 1;
+    opacity: 1.0;
     -webkit-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
     transform: none;
     }
 
     #resume-title{
-    margin-top: 280px;
+    margin-top: 30px;
     margin-left: 25px;
     transform: rotate(0deg);
     font-family: Raleway;
     height: 90px;
     width: 95%;
     text-transform: uppercase;
-    text-align: right;
+    
     }
 
 .container-resume{
     transform: rotate(0deg);
     left: 0px;
-    top: 330px;
+    top: 610px;
     position: absolute;
     width: 100%;
     height: 20px;
@@ -437,6 +439,54 @@ img:hover {
     transition: 1s ease-in-out;
     transform: none;
     
+}
+img{
+    height: 30px;
+    width: 10px;
+}
+.photo {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  text-align: center;
+}
+ 
+ img {
+  margin-left: auto;
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  
+}
+
+img:hover {
+  opacity: none;
+  transition:none;
+}
+
+.fade-info {
+      z-index: -1;
+    width: 30px;
+    line-height: 35px;
+    display: inline-block;
+    padding: inherit;
+    vertical-align: text-top;
+    font-family: Raleway;
+    font-size: px;
+    text-align: center;
+    height: 25px;
+} 
+#self-info{
+    display: none;
+}
+#bio-title{
+    display: none;
+}
+.bio-info{
+    display:none;
 }
 
 
