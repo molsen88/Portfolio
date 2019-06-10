@@ -376,6 +376,69 @@ img:hover {
     transform: none;
     }
 
+    #portfolio-title{
+    margin-top: 140px;
+    margin-left: 25px;
+    transform: rotate(0deg);
+    font-family: Raleway;
+    height: 90px;
+    width: 95%;
+    text-transform: uppercase;
+    text-align: justify;
+       
+    }
+
+.container-portfolio{
+    transform: rotate(0deg);
+    left: 0px;
+    top: 330px;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    display: table;
+    z-index: 1;
+    }
+
+.container-portfolio:hover{
+    opacity: 1;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    transform: none;
+    }
+
+    #resume-title{
+    margin-top: 280px;
+    margin-left: 25px;
+    transform: rotate(0deg);
+    font-family: Raleway;
+    height: 90px;
+    width: 95%;
+    text-transform: uppercase;
+    text-align: right;
+    }
+
+.container-resume{
+    transform: rotate(0deg);
+    left: 0px;
+    top: 330px;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    display: table;
+    z-index: 1;
+    }
+
+.container-resume:hover{
+    
+    opacity: 1;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    transform: none;
+    
+}
+
 
 
 }
