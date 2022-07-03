@@ -102,27 +102,33 @@ h5{
    .btn .modal-trigger{
        color: red;
    }
+
 #self-info{
     width: 280px;
     height: 320px;
     margin-top: 40px;
    }
+
 #bio{
     margin-top: 40px;
    }
+
 #bio-title{
     color: black;
    }
+
 #title-row{
     margin-top: 40px;
    }
 #bold-contact-info{
     font-weight: bold;
    }
+
 #education-info{
     font-weight: bold;
     margin-top: 20px;
    }
+
 #instructions{
     font-size: 26px;
     font-family: Raleway;
@@ -182,6 +188,7 @@ img:hover {
 .container-title{
     
     transform: rotate(-34deg);
+    transition: 0.2s;
     left: -131px;
     top: -6px;
     position: absolute;
@@ -252,6 +259,7 @@ img:hover {
 
 .container-resume{
     transform: rotate(-34deg);
+    transition: 0.2s;
     left: 766px;
     top: 430px;
     position: absolute;
